@@ -6,15 +6,20 @@ body {
 }
 
 header {
-  background-color: grey;
-  border: 5px solid red;
+  background-color: pink;
+  /*border: 5px solid red;*/
   border-radius: 5%;
 }
 
 header > h1 {
-  color: green;
+  color: black;
   /*display: inline-block;*/
   text-align: center;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 2em;
 }
 
 #welcomeImage {
@@ -40,11 +45,7 @@ header > h1 {
   margin: 20px;
 }
 
-h3 {
-  font-style: italic;
-  font-size: 2em;
-}
-
 #forms {
-  background-color: red;
+  background-color: grey;
+  font-size: 45px;
 }

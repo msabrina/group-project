@@ -1,3 +1,15 @@
+header  h1 {
+  color: red;
+  font-size: 40px;
+  position: relative;
+
+}
+
+header {
+  background-image: url('https://cottonbureau.com/img/tee-pattern_2x.png');
+  display: flex;
+}
+
 
 body {
   background-color: white;
@@ -5,6 +17,7 @@ body {
   width: 100%;
   height: 100%;
 }
+<<<<<<< HEAD
 
 #wrapper {
     width: 90%;
@@ -17,25 +30,43 @@ body {
   }
 
     fieldset {
+=======
+fieldset {
+>>>>>>> b0c0cae502c2dadd5764edf40d2f44f1dbb9ec5d
       background-color: rgba(0,255,0,0.4);
 
     }
-  section{
-
+section{
     display : inline-block;
     width : 48em;
     height : 40em;
     border-width : 0.1em;
-
     padding: 0 20%;
-
 }
 
-
-h1 {
-  color: red;
-  font-size: 70px;
+h4 {
+  color: black;
+  float: left;
+  text-align: center;
 }
+p {
+  font-size: 28px;
+}
+
+#forms {
+
+  font-size: 28px;
+  display: inline;
+  width: 100%;
+}
+
+#description {
+  background-color: pink;
+  color: black;
+  margin: 20px;
+  float: left;
+}
+
 .icon {
   float: left;
 }
@@ -50,15 +81,15 @@ h1 {
   padding: 5px;
 
 }
+
 .float {
   float:left;
 }
-.red {
-  color: red;
-}
+
 .reminder {
   background-color: rgba(26,51,215,0.4);
   padding-left: 50px;
+  visibility: hidden;
 }
 .center {
   text-align: center;
@@ -77,79 +108,11 @@ h1 {
   width: 25%;
   border: 20px solid black;
   border-radius: 10px;
+  visibility: hidden;
 }
 
-#description {
-  background-color: pink;
-  color: black;
-  margin: 20px;
-  float: left;
+.tBackground {
+  background-image: url('https://cottonbureau.com/img/tee-pattern_2x.png');
+  display: flex;
 }
 
-h4 {
-  color: black;
-  float: left;
-  text-align: center;
-}
-fieldset {
-
-}
-
-form {
-
-  font-size: 28px;
-  display: inline;
-  width: 100%;
-}
-
-
-
-header {
-  border: 5px solid red;
-  border-radius: 5%;
-  background-image: url(http://imgur.com/a/9RTBH);
-  display: cover;
-}
-
-/* header {
-  background-color: pink;
-  border: 5px solid red;
-  border-radius: 5%;
-  background-color: black;
-}
-
-header >
-}
-
-h3 {
-  font-style: italic;
-  font-size: 2em;
-}
-
-#welcomeImage {
-  margin-left: 25%;
-  display: inline-block;
-  height: 60%;
-  width: 50%;
-}
-
-#wrapper {
-  margin: 20px;
-  background-color: blue;
-}
-
-#productImage {
-  width: 90%;
-  margin: 20px;
-}
-
-#description {
-  background-color: pink;
-  color: black;
-  margin: 20px;
-}
-
-#forms {
-  background-color: grey;
-  font-size: 45px;
-} */

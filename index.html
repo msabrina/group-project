@@ -15,38 +15,23 @@
     <div id='wrapper'>
      <div id='forms'>
        <form action='index2.html' class='list-maker-form' method='get'>
-<<<<<<< HEAD
-        <label>Color<input id='colorText' type="text" name='color' value=''></label>
-        <label>Nice?<input id='niceCheckbox' type="checkbox" name='nice' value=''></label>
-        <label>Size
-          <input id='sizeRad1' type="radio" name='small' value='S'>
-          <input id='sizeRad2' type="radio" name='medium' value='M'>
-          <input id='sizeRad3' type="radio" name='large' value='L'>
-        </label>
-       </form>
-=======
-        <label>Color</label>
-          <input id='colorText' type="text" name='color' value=''>
-       <!-- </form> -->
-       <!-- <form <action="index2.html" class='list-maker-form' method="get" accept-charset="utf-8"> -->
-         <label>Size<input id='sizeCheckbox' type="checkbox" name='size' value=''></label>
-            <input type="submit">
-       <!-- </form> -->
-
-        <!-- <form class="clearfix" action="index2.html" class="list-maker-form" method="get"> -->
-          <select name="select">
-            <option name='shipping' value="sameday" selected>sameday</option>
-            <option name='shipping' value="regular">regular</option>
-            <option name='shipping' value="express">express</option>
-          </select>
-        <!-- </form> -->
-
-        <!-- <form action="index2.html" class='list-maker-form' method='get'> -->
-            <input type="radio" name="material" value="cotton" checked> Cotton<br>
-            <input type="radio" name="material" value="poly"> Polyester<br>
-            <input type="radio" name="material" value="other"> Other<br><br>
+          <label id='sizeLabel'>Size</label>
+            <input type='radio' class='sizeRad' value='XS'>XS<br>
+            <input type='radio' class='sizeRad' value='S'>S<br>
+            <input type='radio' class='sizeRad' value='M' selected>M<br>
+            <input type='radio' class='sizeRad' value='L'>L<br>
+            <input type='radio' class='sizeRad' value='XL'>XL<br>
+          <label id='shipLabel'>Shipping</label>
+            <select name="Shipping">
+              <option value="sameday" selected>Standard</option>
+              <option value="regular">Express</option>
+              <option value="express">Same Day</option>
+            </select>
+          <label id='matLabel'>Material</label>
+            <input type="radio" value="cotton" checked>Cotton<br>
+            <input type="radio" value="poly">Polyester<br>
+            <input type="radio" value="other">Other<br>
         </form>
->>>>>>> ef93df59639c3595228d90454e42aeb3ca07bf29
      </div>
 
      <div class="wrapper">

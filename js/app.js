@@ -3,10 +3,10 @@ document.addEventListener('DOMContentLoaded', function() {
   var $listForm = document.querySelector('.list-maker-form');
   var $data = (window.location.search).substr(1);
 
-  // console.log($data.split('='));
-// console.log(document.getElementById('sizeCheckbox'))
-console.log(document.getElementById('colorText'))
-  $listForm[0].value = $data.split('=')[1];
+  // console.log($data.split('&')[0].split('=')[1]);
+  // console.log($listForm[0].id)
+  console.log($data.split('&')[0].split('=')[0])
+  $listForm[0].value = $data.split('&')[0].split('=')[0]
 
   //
 

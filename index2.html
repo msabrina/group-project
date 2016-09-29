@@ -14,8 +14,13 @@
   </header>
   <form class='list-maker-form' action="http://localhost:3000/showForm" method="post">
     <label for='colorText'>Color<input id='colorText' type='text' value=''></label>
-    <label for='sizeCheckbox'>Size<input id='sizeCheckbox' type='checkbox' value=''></label>
-    <input type='submit'>
+    <label>Nice?<input id='niceCheckbox' type="checkbox" name='size' value=''></label>
+      <label>Size
+        <input id='sizeRad1' type="radio" name='small' value='S'>
+        <input id='sizeRad2' type="radio" name='medium' value='M'>
+        <input id='sizeRad3' type="radio" name='large' value='L'>
+      </label>
+      <button id='final' type="submit" name='final' value=''>Final</button>
   </form>
   <a href="index.html">Back To Store</a>
 </body>

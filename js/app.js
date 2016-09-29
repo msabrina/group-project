@@ -5,8 +5,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // console.log($data.split('='));
 // console.log(document.getElementById('sizeCheckbox'))
-console.log(document.getElementById('colorText'))
-  $listForm[0].value = $data.split('=')[1];
+  //console.log(document.querySelector('option'))
+
+  // console.log(window.location.search)
+  console.log($data)
+
+  // $listForm[0].value = $data.split('=')[1];
 
   //
 

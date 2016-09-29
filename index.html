@@ -8,24 +8,67 @@
   <script src="js/app.js"></script>
 </head>
 <body>
-  <header id="header" class="">
+  <header background="http://imgur.com/a/9RTBH">
     <h1>INDEX 1</h1>
-    <h2>hello</h2>
+ <img src="http://imgur.com/a/9RTBH" alt="headerImage">
     <!-- <img src="images/tumblr_mdplu1mnLW1ro2d43.gif" alt='welcomeImage' id='welcomeImage'> -->
   </header>
-  <!-- <main>
+  <main>
     <div id='wrapper'>
-      <img src='http://cdn.shopify.com/s/files/1/0179/5445/products/8zsx11mg_large.png?v=1472703979' alt='shirt picture' id='productImage'>
-      <div id='description'>
-        <h3>Description</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus rem veritatis dolorem voluptas labore sint, quo similique. Facere, rerum expedita maxime, possimus, dolorem blanditiis enim hic sint quaerat deserunt libero.</p>
-      </div> -->
+     <!-- <img src='http://cdn.shopify.com/s/files/1/0179/5445/products/8zsx11mg_large.png?v=1472703979' alt='shirt picture' id='productImage'> -->
      <div id='forms'>
        <form action='index2.html' class='list-maker-form' method='get'>
-        <label>Color<input id='colorText' type="text" name='color' value=''></label>
-        <label>Size<input id='sizeCheckbox' type="checkbox" name='size' value=''></label>
-       </form>
+        <label>Color</label>
+          <input id='colorText' type="text" name='color' value=''>
+       <!-- </form> -->
+       <!-- <form <action="index2.html" class='list-maker-form' method="get" accept-charset="utf-8"> -->
+         <label>Size<input id='sizeCheckbox' type="checkbox" name='size' value=''></label>
+            <input type="submit">
+       <!-- </form> -->
+
+        <!-- <form class="clearfix" action="index2.html" class="list-maker-form" method="get"> -->
+          <select name="select">
+            <option name='shipping' value="sameday" selected>sameday</option>
+            <option name='shipping' value="regular">regular</option>
+            <option name='shipping' value="express">express</option>
+          </select>
+        <!-- </form> -->
+
+        <!-- <form action="index2.html" class='list-maker-form' method='get'> -->
+            <input type="radio" name="material" value="cotton" checked> Cotton<br>
+            <input type="radio" name="material" value="poly"> Polyester<br>
+            <input type="radio" name="material" value="other"> Other<br><br>
+        </form>
      </div>
+
+     <div class="wrapper">
+
+      <aside>
+      <div class='inCart'>
+      <h3 class='cartAside'>Order Summary</h3>
+      <p>Order subtotal:</p>
+      <p>shipping fees:</p>
+      <p>special offerrs:</p>
+      <p>Tax:</p>
+      <p>Total:</p>
+    </div>
+    <div class="cart-remind">
+    <h3 class="red">In Your Cart:</h3>
+
+    <p><img class="float" src="https://upload.wikimedia.org/wikipedia/commons/2/24/Blue_Tshirt.jpg"><p>
+
+    <h4>Description</h4>
+      <div id='description'>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus rem veritatis dolorem voluptas labore sint, quo similique. Facere, rerum expedita maxime, possimus, dolorem blanditiis enim hic sint quaerat deserunt libero.</p>
+
+      <button type="button" onclick="alert('All done shopping?')">Check Out!</button>
+      </div>
+    </div>
+    </aside >
+        <!-- <form class="clearfix" action="http://localhost:3000/showForm" class="list-maker-form" method="get"> -->
+
+  <!-- <input id='colorText' type="text" name='color' value=''> -->
+
     <!-- </div>
     <aside>Cart</aside>
     <a href="index2.html">Go to checkout</a>

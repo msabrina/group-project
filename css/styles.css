@@ -1,15 +1,21 @@
+header {
+  background-image: url('https://www.colourbox.com/preview/1982648-old-brick-wall-forming-a-frame-in-black-and-white.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
 header  h1 {
   color: red;
   font-size: 40px;
   position: relative;
-
+  font-family: 'Permanent Marker', cursive;
+  /*text-align: center;*/
+  padding-left: 80px;
 }
 
-header {
-  background-image: url('https://cottonbureau.com/img/tee-pattern_2x.png');
-  display: flex;
+h3 {
+  font-family: 'Poiret One', cursive;
 }
-
 
 body {
   background-color: white;
@@ -17,59 +23,100 @@ body {
   width: 100%;
   height: 100%;
 }
-<<<<<<< HEAD
 
-#wrapper {
-    width: 90%;
-    height: 100%;
-    margin: 0 auto;
-
-}
-   .checkout {
-    background-color: black;
-  }
-
-    fieldset {
-=======
-fieldset {
->>>>>>> b0c0cae502c2dadd5764edf40d2f44f1dbb9ec5d
-      background-color: rgba(0,255,0,0.4);
-
-    }
-section{
-    display : inline-block;
-    width : 48em;
-    height : 40em;
-    border-width : 0.1em;
-    padding: 0 20%;
-}
-
-h4 {
-  color: black;
-  float: left;
-  text-align: center;
-}
 p {
   font-size: 28px;
 }
 
-#forms {
+footer {
+  background-image: url('https://www.colourbox.com/preview/1982648-old-brick-wall-forming-a-frame-in-black-and-white.jpg');
+  display: flex;
+  display: cover;
+  height: 100px;
+  clear: both;
+}
 
+fieldset {
+  font-family: 'Poiret One', cursive;
+}
+
+li{
+  list-style: none;
+}
+
+#firstThree {
+  display: block;
+  text-align: center;
+  margin: 0 0 0 0;
+  background-color: ;
+}
+
+#materials {
+  display: inline-block;
+  margin:0px 0 40px 0;
+  padding: 0 10px 0 30px ;
+}
+
+#size {
+  display: inline-block;
+  margin:-10px, 0 40px 0;
+  padding: 0 10px 0 30px ;
+
+}
+
+#colors {
+  display: inline-block;
+  margin:-10px, 0 40px 0;
+  padding: 0 10px 0 30px ;
+
+}
+
+#shipDiv {
+  margin: 70px 0 -1000px 0;
+}
+
+#forms {
   font-size: 28px;
-  display: inline;
   width: 100%;
+  font-family: 'Poiret One', cursive;
 }
 
 #description {
-  background-color: pink;
-  color: black;
-  margin: 20px;
-  float: left;
+  color: black;;
+  font-family: 'Poiret One', cursive;
+  overflow: auto;
+  width: 500px;
+  padding-left: 75px;
+}
+
+#picture {
+  padding-left: 150px;
+  margin-bottom: 45px;
+}
+
+#wrapper {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#button {
+  position: absolute;
+  bottom: -100px;
+  left: 590px;
+  font-size: 24px;
+  border: 10px solid grey;
+  border-radius: 10px;
+
+}
+.dropLab {
+  color: red;
 }
 
 .icon {
   float: left;
 }
+
 .back {
   height: 65px;
   width: 40px;
@@ -79,7 +126,10 @@ p {
   border: 3px solid black;
   background-color: red;
   padding: 5px;
+}
 
+.checkout {
+  background-color: black;
 }
 
 .float {
@@ -112,10 +162,8 @@ p {
 }
 
 .tBackground {
-  background-image: url('https://cottonbureau.com/img/tee-pattern_2x.png');
+  background-image: url('https://www.colourbox.com/preview/1982648-old-brick-wall-forming-a-frame-in-black-and-white.jpg');
   display: flex;
-}
-
-.sizeRad {
-  color: red;
+  display: cover;
+  height: 150px;
 }

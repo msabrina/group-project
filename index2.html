@@ -1,96 +1,117 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>checkout</title>
-<style type="text/css"></style>
+  <title></title>
+  <style type="text/css">
+ header {
+  background-image: url('https://www.colourbox.com/preview/1982648-old-brick-wall-forming-a-frame-in-black-and-white.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+header  h1 {
+  color: red;
+  font-size: 40px;
+  position: relative;
+  font-family: 'Permanent Marker', cursive;
+  /*text-align: center;*/
+  padding-left: 80px;
+}
+header  a {
 
-  <script src="js/app.js"></script>
+  position: relative;
+  left: 800px;
+  color: white;
+  font-size: 26px;
+  margin: 5px;
+  top:70px;
+}
+header li {
+  display: inline-block;
+}
+
+  footer img{
+  height: 65px;
+  width: 40px;
+  margin-left: 50px;
+  display: inline
+  border-radius: 60;
+  border: 3px solid black;
+  background-color: red;
+  padding: 5px;
+}
+
+footer {
+  background-image: url('https://www.colourbox.com/preview/1982648-old-brick-wall-forming-a-frame-in-black-and-white.jpg');
+  display: flex;
+  display: cover;
+  height: 100px;
+  clear: both;
+}
+.chkWrapper {
+  width:90%;
+  height: auto;
+  margin: 5% auto;
+}
+.icon {
+  position: absolute;
+  top:100px;
+  left: 0;
+}
+.chkHeader h1{
+  position: relative;
+  left:150px;
+  top:20px;
+}
+  </style>
+
 </head>
 <body>
-<<<<<<< HEAD
-  <header id="header" class="">
-    <h1>INDEX 2</h1>
-    <!-- <img src="images/tumblr_mdplu1mnLW1ro2d43.gif" alt='welcomeImage' id='welcomeImage'> -->
-  </header>
-  <form class='list-maker-form' action="http://localhost:3000/showForm" method="get">
-    <label for='colorText'>Color<input id='colorText' type='text' value=''></label>
-    <label>Nice?<input id='niceCheckbox' type="checkbox" name='size' value=''></label>
-      <label>Size
-        <input id='sizeRad1' type="radio" name='small' value='S'>
-        <input id='sizeRad2' type="radio" name='medium' value='M'>
-        <input id='sizeRad3' type="radio" name='large' value='L'>
-      </label>
-      <button id='final' type="submit" name='final' value=''>Final</button>
-  </form>
-  <a href="index.html">Back To Store</a>
-=======
-
-<header class = "checkout">
-
-<!--<a href><img class="icon" src="http://icons.iconarchive.com/icons/fasticon/shop-cart/256/shop-cart-apply-icon.png"></a>-->
-<link rel="stylesheet" href="css/styles.css">
+<header class="chkHeader">
+<ul>
+  <li><a href="#">products</a></li>
+  <li><a href="#">checkout</a></li>
+</ul>
 <h1> MERSE "N" SHIRTS</h1>
 </header>
-
-<div class="wrapper">
-        <a href="index.html">Back To Store</a>
-      <section>
-      <aside>
-       <form action="" method="post" >
-      <div class='reminder'>
-      <h3 class='center'>Order Summary</h3>
-      <p>Order subtotal</p>
-      <p>shipping fees</p>
-      <p>special offerrs</p>
-      <p>Tax</p>
-      <p>Total</p>
-    </div>
-    </form>
-    <div class="cart-remind">
-    <h3 class="red">In Your Cart:</h3>
-    <p><img class="float" src="https://upload.wikimedia.org/wikipedia/commons/2/24/Blue_Tshirt.jpg"><p>
-    </div>
-
-
-    </aside >
-        <form class="clearfix" action="http://localhost:3000/showForm" class="list-maker-form" method="post">
+<div class="chkWrapper">
+  <main>
+    <a href><img class="icon" src="http://icons.iconarchive.com/icons/fasticon/shop-cart/256/shop-cart-apply-icon.png"></a>
+    <section>
+      <form style="background:  linear-gradient(to bottom right, grey, lightblue);" action="http://localhost:3000/showForm" class="list-maker-form" method="post">
           <fieldset>
             <legend>Shipping Information:</legend>
             <p>First Name: <input type="text" name="firstName"><em>*</em></p>
             <p>Last Name: <input type="text" name="lastName"><em>*</em></p>
-
             <p>Address: <input type="text" name="streetAddress"><em>*</em> Apt#:<input type="text" name="apt#"><em>*</em></p>
             <p>City: <input type="text" name="city"><em>*</em></p>
            <p> Zip Code: <input type="text" name="zipCode" maxlength="5" placeholder="ex 00878"> <em>*</em></p>
            <p>Email Address: <input type="email" name="email" placeholder="ex johndoe@something.com"> (optional)</p>
            <p>billing address the same <input type="checkbox" name="sameInfo"></p>
            <input type="reset" value="clear">
-
           </fieldset>
+
           <fieldset>
             <legend>Billing Information</legend>
-             <p>credit card: <select name="creditcard">
-              <option value="visa">visa</option>
-              <option value="master card">master card</option>
-              <option value ="american express">American Express</option>
-              <option value="discover"> Discover</option>
-              </select>
-              </p>
-            </select>
+            <p>credit card: <select name="creditcard">
+            <option value="visa">visa</option>
+            <option value="master card">master card</option>
+            <option value ="american express">American Express</option>
+            <option value="discover"> Discover</option>
+            </select></p>
             <p>credit card #: <input type="text" name="creditcard"></p>
             <p>expiration date: </p>
             <p>ccv #: <input type="text" name="ccv#" maxlength="3"></p>
             <input type="submit" name="submit" value="Place Order">
-
-
           </fieldset>
         </form>
-        </section>
+    </section>
+    </main>
+  </div>
+    <footer>
+      <a href="#"><img class="back" src="http://www.clker.com/cliparts/1/w/Z/9/Y/1/remove-arrow-hi.png"></a>
+    </footer>
 
-</div>
-<footer>
-<a href="#"><img class="back" src="http://www.clker.com/cliparts/1/w/Z/9/Y/1/remove-arrow-hi.png"></a>
-</footer>
->>>>>>> ef93df59639c3595228d90454e42aeb3ca07bf29
-</body>
+
+  </body>
 </html>

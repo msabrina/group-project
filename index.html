@@ -1,60 +1,56 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Shirt Shop</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <script src="js/app.js"></script>
-</head>
-<body>
-  <header class = "tBackground">
-    <h1>MERSE "N" SHIRTS</h1>
-  </header>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>MERSE "N" SHIRTS</title>
+      <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+      <link rel="stylesheet" href="css/styles.css">
+      <script src="js/app.js"></script>
+    </head>
+
+  <body>
+    <header class = "tBackground">
+      <h1>MERSE "N" SHIRTS</h1>
+    </header>
   <main>
-    <div id='wrapper'>
-     <div id='forms'>
-       <form action='index2.html' class='list-maker-form' method='get'>
-          <label id='sizeLabel'>Size</label>
-            <input type='radio' class='sizeRad' value='XS'>XS<br>
-            <input type='radio' class='sizeRad' value='S'>S<br>
-            <input type='radio' class='sizeRad' value='M' selected>M<br>
-            <input type='radio' class='sizeRad' value='L'>L<br>
-            <input type='radio' class='sizeRad' value='XL'>XL<br>
-          <label id='shipLabel'>Shipping</label>
-            <select name="Shipping">
-              <option value="sameday" selected>Standard</option>
-              <option value="regular">Express</option>
-              <option value="express">Same Day</option>
-            </select>
-          <label id='matLabel'>Material</label>
-            <input type="radio" value="cotton" checked>Cotton<br>
-            <input type="radio" value="poly">Polyester<br>
-            <input type="radio" value="other">Other<br>
-        </form>
-     </div>
-
-     <div class="wrapper">
-
-      <aside>
-      <div class='inCart'>
-      <h3 class='cartAside'>Order Summary</h3>
-      <p>Order subtotal:</p>
-      <p>shipping fees:</p>
-      <p>special offerrs:</p>
-      <p>Tax:</p>
-      <p>Total:</p>
-    </div>
-    <p><img class="float" src="https://upload.wikimedia.org/wikipedia/commons/2/24/Blue_Tshirt.jpg"><p>
-
-    <h4>Description</h4>
-      <div id='description'>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus rem veritatis dolorem voluptas labore sint, quo similique. Facere, rerum expedita maxime, possimus, dolorem blanditiis enim hic sint quaerat deserunt libero.</p>
-
-      <button type="button" onclick="alert('All done shopping?')">Check Out!</button>
+    <div id='forms'>
+      <form action="index2.html" class='list-maker-form' method='get'>
+        <div id='firstThree'>
+        <ul id='size'>
+          <label id='sizeLabel' class='dropLab'>Size:</label>
+            <li><input type='radio' class='sizeRad' value='S'>S</li>
+            <li><input type='radio' class='sizeRad' value='M' selected>M</li>
+            <li><input type='radio' class='sizeRad' value='L'>L</li>
+            <li><input type='radio' class='sizeRad' value='XL'>XL</li>
+        </ul>
+        <ul id="materials">
+          <label id='matLabel' class='dropLab'>Material:</label>
+            <li><input type="radio" value="cotton" checked>Cotton</li>
+            <li><input type="radio" value="poly">Polyester</li>
+            <li><input type="radio" value="other">Other</li>
+            <li><input type="radio" value="organic cotton">Organic Cotton</li>
+        </ul>
+        <ul id="colors">
+        <label id='matLabel' class='dropLab'>Colors:</label>
+          <li><input type="radio" value="blue" checked>Blue</li>
+          <li><input type="radio" value="black">Black</li>
+          <li><input type="radio" value="yellow">Yellow</li>
+          <li><input type="radio" value="red">Red</li>
+        </ul>
       </div>
+    <input id="button" type="submit" value="Done"><br>
+      </form>
     </div>
-    </aside >
+    <p><img id='picture' class="float" src="https://upload.wikimedia.org/wikipedia/commons/2/24/Blue_Tshirt.jpg"><p>
 
-</body>
+    <div id='description'>
+      <p>Pair this 100% Pima cotton V-neck tee with shorts, with denim, with chinos—it just works. Choose from a wide palette of fun, vivid colors and you'll find an updated edge to a classic design. It might be the most comfortable thing you’ll ever wear. Just saying...</p>
+    </div>
+    <footer></footer>
+
+  </main>
+  </body>
+
 </html>
